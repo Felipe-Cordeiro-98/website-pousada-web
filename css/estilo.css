@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.destaque-azul {
+    color: #02a9a9;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    background-color: #fff;
+}
+
+.container-topo {
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 30px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.container-topo a {
+    color: #000;
+    text-decoration: none;
+}
+
+.container-topo .logo a {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.container-topo .links {
+    display: flex;
+    gap: 50px;
+}
+
+.container-topo .links a {
+    font-size: 18px;
+}
+
+.secao-banner {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../assets/img-fundo.jpg");
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.secao-banner .titulo {
+    width: 500px;
+    height: 250px;
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: #02a9a993;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.secao-banner .titulo h1 {
+    font-size: 50px;
+}
+
+.secao-banner .titulo p {
+    font-size: 25px;
+}
+
+/* conteudo */
+
+.secao-informacoes {
+    display: flex;
+    justify-content: center;
+    padding: 80px 0;
+}
+
+.container-descricao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.container-descricao h2 {
+    font-size: 30px;
+}
+
+.secao-quartos {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 30px;
+}
+
+.card-quartos {
+    width: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 2px solid #02a9a9;
+    flex-grow: 1;
+}
+
+.card-quartos img {
+    width: 100%;
+}
+
+.card-quartos h3 {
+    padding: 30px 0;
+}
+
+/* sobre */
+
+.secao-sobre {
+    padding: 0 30px 80px;
+}
+
+.container-sobre {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+
+.card-sobre {
+    width: 600px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.card-info {
+    width: 100%;
+}
+
+.card-sobre img {
+    width: 150px;
+    height: 150px;
+}
+
+.card-info h3 {
+    font-size: 22px;
+    padding: 30px 0;
+}
+
+/*rodape*/
+
+footer {
+    width: 100%;
+    color: #fff;
+    background-color: #02a9a9;
+}
+
+.container-rodape {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.container-rodape-contato {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0;
+    flex-wrap: wrap;
+    gap: 30px;
+    border-bottom: 1px solid white;
+
+}
+
+.container-rodape-autor {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.card-rodape {
+    width: 250px;
+    position: relative;
+}
+
+.card-rodape h4 {
+    font-size: 25px;
+}
+
+.card-rodape p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
